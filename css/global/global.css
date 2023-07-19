@@ -1,0 +1,41 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a {
+  color: var(--cor-12);
+  display: block;
+  text-decoration: none;
+  display: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+.container-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+.container-1400 {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}

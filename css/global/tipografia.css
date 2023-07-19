@@ -1,0 +1,67 @@
+.font-1-xxl {
+  /* font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 112.5%; */
+  font: 600 4rem/112.5% "poppins", sans-serif;
+}
+.font-1-xl {
+  font: 600 2rem/125% "poppins", sans-serif;
+}
+.font-1-l {
+  font: 500 1.5rem/150% "poppins", sans-serif;
+}
+.font-2-l {
+  font: 400 1.5rem/150% "roboto", sans-serif;
+}
+.font-2-l-b {
+  font: 500 1.5rem/150% "roboto", sans-serif;
+  letter-spacing: 0.36px;
+}
+.font-1-m {
+  font: 500 1.125rem/133.333% "poppins", sans-serif;
+}
+.font-1-m-b {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-size: 1.125rem; /* 18px*/
+  font-weight: 600;
+  line-height: 133.333%;
+}
+.font-2-m {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-size: 1.125rem; /* 18px*/
+  font-weight: 500;
+  line-height: 133.333%;
+}
+.font-1-s {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-size: 1rem; /* 16px*/
+  font-weight: 500;
+  line-height: 150%;
+}
+.font-2-s {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-size: 1rem; /*16px*/
+  font-weight: 400;
+  line-height: 150%;
+}
+.font-2-xs {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem; /*14px*/
+  font-weight: 400;
+  line-height: 142.857%;
+}
+.font-1-xs {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-size: 0.75rem; /* 12px*/
+  font-weight: 600;
+  line-height: 133.333%;
+}
+@media (max-width: 1150px) {
+  .font-1-xxl {
+    font-size: 3.5rem;
+  }
+  .font-2-l {
+    font-size: 1.3rem;
+  }
+}
