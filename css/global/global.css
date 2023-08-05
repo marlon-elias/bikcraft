@@ -3,10 +3,13 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+blockquote {
   font-family: "poppins", Arial, Helvetica, sans-serif;
   padding: 0px;
   margin: 0px;
+  font-size: inherit;
+  font-family: inherit;
 }
 ul,
 li {
@@ -19,6 +22,7 @@ a {
   display: block;
   text-decoration: none;
   display: inherit;
+  color: inherit;
 }
 img {
   max-width: 100%;

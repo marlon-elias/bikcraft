@@ -1,0 +1,65 @@
+.seguros-bg {
+  background-color: var(--cor-11);
+}
+
+.seguros-bg h2 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.seguros-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.seguros-items {
+  background-color: var(--cor-12);
+  border-radius: 4px;
+  padding: 32px 32px 64px 64px;
+}
+
+.seguros-plano {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.seguros-plano-preco {
+  display: grid;
+  justify-items: end;
+  text-align: right;
+}
+.conteudo-seguros ul {
+  display: grid;
+  gap: 20px;
+  padding-bottom: 32px;
+}
+.conteudo-seguros ul li {
+  position: relative;
+}
+.conteudo-seguros ul li::before {
+  content: url(/img/icones/lista.svg);
+  position: absolute;
+  left: -20px;
+  top: -2px;
+}
+
+.prata .botao-1 {
+  color: var(--cor-0);
+  background: var(--gradiente, linear-gradient(#2e2e2e, #3b3b3b));
+}
+.prata .botao-1:hover {
+  background: var(--gradiente, linear-gradient(#525252, #5c5c5c));
+  color: var(--cor-0);
+}
+@media (max-width: 800px) {
+  .seguros-container {
+    grid-template-columns: 1fr;
+  }
+  .seguros-container h3 {
+    font-size: 1.5rem;
+  }
+}

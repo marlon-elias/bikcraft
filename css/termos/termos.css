@@ -1,0 +1,14 @@
+.termos-lista {
+  margin: 80px 20px;
+}
+
+.termos-lista h2 {
+  /* padding-top: 10px;
+  padding-bottom: 30px; */
+  margin: 40px 0px 20px 0px;
+}
+
+.termos-lista p {
+  margin-bottom: 24px;
+  max-width: 75ch;
+}

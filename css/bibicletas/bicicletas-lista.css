@@ -2,6 +2,9 @@
   padding-top: 60px;
   padding-bottom: 40px;
 }
+.bicicletas-lista {
+  margin-bottom: 80px;
+}
 /* @media (max-width: 600px) {
   .bicicletas-lista .font-1-xxl {
     padding-bottom: 20px;
