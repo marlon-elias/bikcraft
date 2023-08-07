@@ -24,6 +24,30 @@
     padding: 12px 16px;
   }
 }
+/* botão com seta */
+
+.botao-1.seta {
+  display: flex;
+  align-items: center;
+}
+.botao-1.seta:hover {
+  background: var(--gradiente, linear-gradient(#ffbf00, #f2a50c));
+  color: var(--cor-p5);
+}
+
+.botao-1.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../img/icones/seta.svg);
+  transition: transform 0.2s;
+}
+
+.botao-1.seta:hover::after {
+  transform: translateX(4px);
+}
 
 /* efeito "vazar" a imagem */
 .efeito-foto-duplo {
