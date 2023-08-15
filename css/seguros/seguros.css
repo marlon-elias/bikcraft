@@ -47,6 +47,10 @@
   top: -2px;
 }
 
+#seguros .conteudo-seguros ul li::before {
+  top: 6px;
+}
+
 .prata .botao-1 {
   color: var(--cor-0);
   background: var(--gradiente, linear-gradient(#2e2e2e, #3b3b3b));
